@@ -1,0 +1,32 @@
+:root {
+  /* Fonts */
+  --heading-font: "Open Sans", sans-serif;
+  --body-font: "Poppins", sans-serif;
+
+  /* Colors */
+  /* https://coolors.co/084b83-42bfdd-bbe6e4-f0f6f6-ff66b3 */
+  /* CSS HEX */
+  --yale-blue: #084b83ff;
+  --maximum-blue: #42bfddff;
+  --powder-blue: #bbe6e4ff;
+  --cultured: #f0f6f6ff;
+  --hot-pink: #ff66b3ff;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
+/* Header */
