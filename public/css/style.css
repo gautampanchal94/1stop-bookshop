@@ -4,13 +4,14 @@
   --body-font: "Poppins", sans-serif;
 
   /* Colors */
-  /* https://coolors.co/084b83-42bfdd-bbe6e4-f0f6f6-ff66b3 */
+  /* https://coolors.co/003060-e55b13-f8c625-a47551-e9dccb */
   /* CSS HEX */
-  --yale-blue: #084b83ff;
-  --maximum-blue: #42bfddff;
-  --powder-blue: #bbe6e4ff;
-  --cultured: #f0f6f6ff;
-  --hot-pink: #ff66b3ff;
+  /* CSS HEX */
+  --prussian-blue: #003060ff;
+  --persimmon: #e55b13ff;
+  --saffron: #f8c625ff;
+  --cafe-au-lait: #a47551ff;
+  --almond: #e9dccbff;
 }
 *,
 *::after,
@@ -28,5 +29,11 @@ html {
 body {
   font-family: var(--body-font);
 }
-
-/* Header */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
