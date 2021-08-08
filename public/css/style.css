@@ -98,3 +98,9 @@ footer .icons a:hover {
   color: var(--prussian-blue) !important;
   transition: all 300ms ease-in-out;
 }
+
+/* sign-up section */
+.signup-section .nav-link.active {
+  background-color: black !important;
+  color: white !important;
+}
