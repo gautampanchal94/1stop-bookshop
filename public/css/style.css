@@ -4,8 +4,6 @@
   --body-font: "Poppins", sans-serif;
 
   /* Colors */
-  /* https://coolors.co/003060-e55b13-f8c625-a47551-e9dccb */
-  /* CSS HEX */
   /* CSS HEX */
   --prussian-blue: #003060ff;
   --persimmon: #e55b13ff;
@@ -36,4 +34,61 @@ h4,
 h5 {
   font-family: var(--heading-font);
   font-weight: 600;
+}
+/* Header */
+header .navbar-toggler {
+  border: none !important;
+}
+header .navbar-toggler:focus,
+header .navbar-toggler:active {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+/* Books Section */
+.card {
+  overflow: hidden;
+}
+
+.card .container {
+  position: relative;
+}
+.card .container img {
+  display: block;
+}
+.card .container .fa-heart {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  background-color: var(--almond);
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.card:hover {
+  box-shadow: 0 4px 5px rgba(153, 153, 153, 0.7) !important;
+  transition: all 300ms ease-in-out;
+}
+.card .container .fa-heart:hover {
+  font-size: 1.4rem;
+  border-radius: 50%;
+  color: var(--persimmon);
+  transition: all 300ms ease-in-out;
+}
+/* Footer */
+footer .footer-link:hover {
+  color: var(--persimmon) !important;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+footer .btn-secondary:focus,
+footer .btn-secondary:active {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+footer .icons a:hover {
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
 }
